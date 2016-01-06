@@ -1,12 +1,12 @@
 <?php
 /**
- * 将 Typecho 的附件上传至七牛云存储中。该插件仅为满足个人需求而制作，如有考虑不周的地方，可自行修改。<a href="https://github.com/abelyao/Typecho-QiniuFile" target="_blank">源代码参考</a> &amp; <a href="https://portal.qiniu.com/signup?code=3li4q4loavdxu" target="_blank">注册七牛</a>
- *
+ * 原项目地址<a href="https://github.com/abelyao/Typecho-QiniuFile" target="_blank">在此</a>，年久失修，不能正常在 Typecho 1.0 上使用，经由<a href="https://github.com/MarlonFan/qiniu-typecho-file" target="_blank">MarlonFan</>修改，得以正常。表示感谢！ 
+ * 下载后，请将文件夹名称修改为「QiniuFile」，否则可能无法正常使用。
  * @package Qiniu File
  * @author abelyao
- * @version 1.2.0
+ * @version 1.2.1
  * @link http://www.abelyao.com/
- * @date 2014-02-22
+ * @date 2016-01-06
  */
 
 class QiniuFile_Plugin implements Typecho_Plugin_Interface
